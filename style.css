@@ -1,0 +1,82 @@
+:root{
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--Yellow);
+  display: grid;
+  height: 100vh; /* Ajusta el alto del grid al 100% del viewport */
+  place-items: center; /* Centra el contenido tanto horizontal como verticalmente */
+}
+#Card{
+  height: 500px;
+  width: 325px ;
+  background-color: var(--White);
+  border-radius: 12px ;
+  box-shadow:  7px 7px ;
+  border: 1px solid black;
+}
+section{
+  margin: 15px ;
+}
+picture img{
+  height: 230px ;
+  width: 100% ;
+  margin-bottom: 15px ;
+  border-radius: 12px ;
+}
+.Picture-Img{
+ display: flex;
+  justify-content: center;
+}
+
+div img{
+  height: 100px;
+  width: 200px;
+}
+button{
+  background-color: var(--Yellow) ;
+  font-weight: bold ;
+  border: none ;
+  height: 1.5rem ;
+  border-radius: 2px ;
+  font-size: 10px ;
+  padding: 0 11px 0 11px;
+}
+button:hover{
+  color: var(--White);
+}
+.P-Fecha{
+  font-size: 10px ;
+}
+.Name{
+  font-weight: bold;
+  font-size: 20px 
+}
+.Name:hover{
+  color: var(--Yellow);
+}
+.P-Sub{
+  font-size: 14px ;
+  color: var(--Grey);
+  font-weight: bolder;
+}
+.Perfil{
+  display: flex;
+  flex-direction: row ;
+  align-items: center ;
+  gap: 0.5rem;
+}
+.Perfil img{
+  height: 40px ;
+  width: 40px ;
+  border-radius: 20px ;
+}
+.Name-Perfil{
+  font-weight: bold ;
+}
+
